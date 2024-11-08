@@ -23,7 +23,8 @@ The Dmoney API Automation project is designed to test the following functionalit
 ## How to Run This Project:
 - Clone this Project.
 - Give Following Command in the IDE Terminal
-  npm init -y
+  
+  - npm init -y
 
 - Give this Command For Run Project With Mochaawesome Report
   - npm test
