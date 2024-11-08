@@ -1,0 +1,68 @@
+[
+  {
+    "id": 26635,
+    "name": "Axios user Ashley",
+    "email": "Felicia53@gmail.com",
+    "password": "1234",
+    "phone_number": "01502338507",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-11-07T16:10:39.323Z",
+    "createdAt": "2024-11-07T16:10:39.323Z"
+  },
+  {
+    "id": 26637,
+    "name": "sumaiya Kylie",
+    "email": "Calista.Jerde-Volkman82@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502222219",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-11-07T16:13:21.960Z",
+    "createdAt": "2024-11-07T16:13:21.960Z"
+  },
+  {
+    "id": 26649,
+    "name": "tanha Garfield",
+    "email": "Willie.Medhurst13@hotmail.com",
+    "password": "1234",
+    "phone_number": "01502227837",
+    "nid": "123456789",
+    "role": "Agent",
+    "updatedAt": "2024-11-07T16:51:05.061Z",
+    "createdAt": "2024-11-07T16:51:05.061Z"
+  },
+  {
+    "id": 26915,
+    "name": "Axios user Tremayne",
+    "email": "Cory_Lesch@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502162071",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-11-08T16:32:19.722Z",
+    "createdAt": "2024-11-08T16:32:19.722Z"
+  },
+  {
+    "id": 26916,
+    "name": "sumaiya Marty",
+    "email": "Leanne43@hotmail.com",
+    "password": "1234",
+    "phone_number": "01502153896",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-11-08T16:32:22.779Z",
+    "createdAt": "2024-11-08T16:32:22.779Z"
+  },
+  {
+    "id": 26917,
+    "name": "tanha Gracie",
+    "email": "Fausto_Christiansen49@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502749726",
+    "nid": "123456789",
+    "role": "Agent",
+    "updatedAt": "2024-11-08T16:32:25.839Z",
+    "createdAt": "2024-11-08T16:32:25.839Z"
+  }
+]

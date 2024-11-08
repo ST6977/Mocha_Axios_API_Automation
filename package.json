@@ -1,0 +1,26 @@
+{
+  "name": "mocha_axios_assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " mocha --timeout=30000 mocha --reporter mochawesome --reporter-options reportDir=reports,reportFilename=index --file ./test/user.test.js --file ./test/tranx.test.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "axios": "^1.7.7",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3"
+  }
+}
