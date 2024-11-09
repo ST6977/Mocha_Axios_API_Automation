@@ -1,10 +1,8 @@
 import jsonData from './../userData.json' assert { type: 'json' };
 import { expect } from 'chai';
 import axios from 'axios';
-//import dotenv from 'dotenv';
-//import storeToken from './../setEnvVar.js';
 import dotenv from 'dotenv';
-//import fs from 'fs';
+
 
 dotenv.config();
 
@@ -22,8 +20,7 @@ describe("transaction", async () => {
         const { data } = await axios.post(`${process.env.base_url}/transaction/deposit`, {
 
             "from_account":"SYSTEM",
-           // "to_account": agentAccount,
-          "to_account": jsonData[length-1].phone_number , // Agent Account
+         "to_account": jsonData[length-1].phone_number , // Agent Account
             "amount": 2000
         },
             {
