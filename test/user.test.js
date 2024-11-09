@@ -44,10 +44,9 @@ describe("Admin Login", async () => {
                 }
             });
 
-        // console.log("User creation response data:", data);
+    
         jsonData.push(data.user);
-        // console.log("User creation response data 2:", jsonData);
-       // fs.writeFile('./userData.json', JSON.stringify(jsonData, null, 2)  , 'utf8');
+     
        const jsonString = JSON.stringify(jsonData, null, 2);
 
         fs.writeFile('./userData.json', jsonString, 'utf8', (err) => {
@@ -80,10 +79,9 @@ describe("Admin Login", async () => {
                 }
             });
 
-        // console.log("User creation response data:", data);
+ 
         jsonData.push(data.user);
-        // console.log("User creation response data 2:", jsonData);
-       // fs.writeFile('./userData.json', JSON.stringify(jsonData, null, 2)  , 'utf8');
+   
        const jsonString = JSON.stringify(jsonData, null, 2);
 
         fs.writeFile('./userData.json', jsonString, 'utf8', (err) => {
@@ -115,10 +113,9 @@ describe("Admin Login", async () => {
                 }
             });
 
-        // console.log("User creation response data:", data);
+    
         jsonData.push(data.user);
-        // console.log("User creation response data 2:", jsonData);
-       // fs.writeFile('./userData.json', JSON.stringify(jsonData, null, 2)  , 'utf8');
+  
        const jsonString = JSON.stringify(jsonData, null, 2);
 
         fs.writeFile('./userData.json', jsonString, 'utf8', (err) => {
@@ -134,7 +131,7 @@ describe("Admin Login", async () => {
 
 
 
-     //delay 1000 ms
+     //delay 3000 ms
      afterEach(async () => {
         await new Promise(resolve => setTimeout(resolve, 3000));
     });
