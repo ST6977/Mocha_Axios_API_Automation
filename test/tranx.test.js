@@ -210,7 +210,7 @@ describe("transaction", async () => {
 
 
 
-                              //delay 1000 ms
+                              //delay 3000 ms
      afterEach(async () => {
         await new Promise(resolve => setTimeout(resolve, 3000));
     });
